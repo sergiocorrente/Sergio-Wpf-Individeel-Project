@@ -1,0 +1,25 @@
+﻿<Window x:Class="Sergio_Wpf_Individeel_Project.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sergio_Wpf_Individeel_Project"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Border Background="#31363d" CornerRadius="20" Margin="20">
+            <StackPanel Margin="20">
+                <Label Content="Login" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+                <Separator></Separator>
+                <Label Content="Username" Foreground="White"/>
+                <TextBox Name="txtUsername" Background="#545d6a" Foreground="White" FontSize="18"  />
+                <Label Content="Password" Foreground="White"/>
+                <PasswordBox Password="Password" x:Name="txtPassword" Background="#545d6a" Foreground="White" FontSize="18" />
+                <Button Name="btnSubmit" Content="Submit" Margin="60 10" Background="#545d6a" Foreground="White" FontSize="18" Click="btnSubmit_Click" />
+                <Button Name="Registratie" Content="Registratie" Margin="60 10" Background="#545d6a" Foreground="white" FontSize="18" Click="Registratie_Click" />
+                <Button Name="Clear" Content="Clear" Margin="60 10" Background="#545d6a" Foreground="white" FontSize="18" />
+            </StackPanel>
+            
+        </Border>
+    </Grid>
+</Window>

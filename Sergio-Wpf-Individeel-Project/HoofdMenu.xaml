@@ -1,0 +1,22 @@
+﻿<Window x:Class="Sergio_Wpf_Individeel_Project.HoofdMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sergio_Wpf_Individeel_Project"
+        mc:Ignorable="d"
+        Title="HoofdMenu" Height="350" Width="350">
+    <Grid>
+        <Border Background="#31363d" CornerRadius="20" Margin="20">
+            <StackPanel Margin="20">
+                <Label Content="Maak je keuze" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="txtKeuze" Text=""  Foreground="White" FontSize="25" HorizontalAlignment="Center"/> 
+                <Separator></Separator>
+                <Button Name="btnDatabeheer" Content="Databeheer" Margin="60 10" Background="#545d6a" Foreground="White"/>
+                <Button Name="btnOverzicht" Content="Overzicht" Margin="60 10" Background="#545d6a" Foreground="White"/>
+                <Button Name="btnBestelling" Content="Bestelling" Margin="60 10" Background="#545d6a" Foreground="White"/>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
